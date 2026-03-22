@@ -21,3 +21,9 @@ This project implements an unsupervised machine learning pipeline to group text 
 - `preprocessing.py`: Module for text cleaning and feature engineering.
 - `silhouette_plot.png`: Visualisation of silhouette scores across different K values.
 - `data_train.txt`: The input dataset consisting of 1,760 text instances.
+
+## 📊 Visualizations
+### Silhouette Analysis
+We used the silhouette coefficient to evaluate the density and separation of the formed clusters. The plot below illustrates that $K=2$ yields the highest score.
+
+![Silhouette Analysis Plot](silhouette_plot.png)
